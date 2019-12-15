@@ -1,0 +1,35 @@
+{
+  "name": "friendly-funicular",
+  "logo": {
+    "font": ".fonts/FoglihtenNo04-070.otf",
+    "fontSzie": 72,
+    "logo": "friendly funicular",
+    "output": "logo.svg",
+    "path": {
+      "fill": "#cb3837"
+    }
+  },
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "logo": "logo && convert-svg-to-png logo.svg && rm -f logo.svg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kane-thornwyrd/friendly-funicular.git"
+  },
+  "author": "jean-cédric Thérond <jean.cedric.t@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/kane-thornwyrd/friendly-funicular/issues"
+  },
+  "homepage": "https://github.com/kane-thornwyrd/friendly-funicular#readme",
+  "devDependencies": {
+    "convert-svg-to-png": "0.5.0",
+    "logo.svg": "1.0.1",
+    "prettier": "1.19.1"
+  }
+}
